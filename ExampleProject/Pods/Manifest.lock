@@ -1,0 +1,12 @@
+PODS:
+  - SpringSpinnerView (0.1.0)
+
+DEPENDENCIES:
+  - SpringSpinnerView
+
+SPEC CHECKSUMS:
+  SpringSpinnerView: 0e397f6e7f7feb788f7ce448875f4d4e828a878f
+
+PODFILE CHECKSUM: 5497242dc53720c4320dfc691318327a6c32df8d
+
+COCOAPODS: 1.2.0

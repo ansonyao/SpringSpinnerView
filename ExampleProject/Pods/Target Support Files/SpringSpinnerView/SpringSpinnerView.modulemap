@@ -1,0 +1,6 @@
+framework module SpringSpinnerView {
+  umbrella header "SpringSpinnerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

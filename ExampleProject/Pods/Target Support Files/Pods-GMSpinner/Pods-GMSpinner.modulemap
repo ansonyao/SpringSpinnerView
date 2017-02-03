@@ -1,0 +1,6 @@
+framework module Pods_GMSpinner {
+  umbrella header "Pods-GMSpinner-umbrella.h"
+
+  export *
+  module * { export * }
+}
