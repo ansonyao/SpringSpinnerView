@@ -1,26 +1,38 @@
-pod-template
-============
+# SpringSpinnerView
 
-An opinionated template for creating a Pod with the following features:
+[![CI Status](http://img.shields.io/travis/Anson Yao/SpringSpinnerView.svg?style=flat)](https://travis-ci.org/ansonyao/SpringSpinnerView)
+[![Version](https://img.shields.io/cocoapods/v/SpringSpinnerView.svg?style=flat)](http://cocoapods.org/pods/SpringSpinnerView)
+[![License](https://img.shields.io/cocoapods/l/SpringSpinnerView.svg?style=flat)](http://cocoapods.org/pods/SpringSpinnerView)
+[![Platform](https://img.shields.io/cocoapods/p/SpringSpinnerView.svg?style=flat)](http://cocoapods.org/pods/SpringSpinnerView)
 
-- Git as the source control management system
-- Clean folder structure
-- Project generation
-- MIT license
-- Testing as a standard
-- Turnkey access to Travis CI
-- Also supports Carthage
+## Example
 
-## Getting started
+![demo](./demo.gif)
 
-There are two reasons for wanting to work on this template, making your own or improving the one for everyone's. In both cases you will want to work with the ruby classes inside the `setup` folder, and the example base template that it works on from inside `template/ios/`. 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Best practices
+## Requirements
 
-The command `pod lib create` aims to be ran along with this guide: http://guides.cocoapods.org/making/using-pod-lib-create.html so any changes of flow should be updated there also.
+## Installation
 
-It is open to communal input, but adding new features, or new ideas are probably better off being discussed in an issue first. In general we try to think if an average Xcode user is going to use this feature or not, if it's unlikely is it a _very strongly_ encouraged best practice ( ala testing / CI. ) If it's something useful for saving a few minutes every deploy, or isn't easily documented in the guide it is likely to be denied in order to keep this project as simple as possible.
+QuickRippleButton is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-## Requirements:
+```ruby
+pod "SpringSpinnerView"
+```
 
-- CocoaPods 1.0.0+
+## Usage
+
+Let spinnerView = SpringSpinnerView(frame: CGRect.zero) 
+
+You can also use the Interface Builder
+
+
+## Author
+
+Anson Yao, yaoenxin@gmail.com
+
+## License
+
+SpringSpinnerView is available under the Apache 2.0 license. See the LICENSE file for more info.
