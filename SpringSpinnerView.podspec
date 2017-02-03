@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SpringSpinnerView'
-  s.version          = '1.0.0'
+  s.version          = '0.1.0'
   s.summary          = 'A spinner view which mimics the animation of the spinner view used in google maps.'
 
   s.description      = <<-DESC
